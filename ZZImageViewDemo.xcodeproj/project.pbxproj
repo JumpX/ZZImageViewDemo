@@ -13,6 +13,7 @@
 		54113CC62277E82200664856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54113CC52277E82200664856 /* Assets.xcassets */; };
 		54113CC92277E82200664856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54113CC72277E82200664856 /* LaunchScreen.storyboard */; };
 		54113CCC2277E82200664856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54113CCB2277E82200664856 /* main.m */; };
+		54113CD42277E83900664856 /* ZZImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54113CD32277E83900664856 /* ZZImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		54113CC82277E82200664856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54113CCA2277E82200664856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54113CCB2277E82200664856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54113CD22277E83900664856 /* ZZImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZImageView.h; sourceTree = "<group>"; };
+		54113CD32277E83900664856 /* ZZImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				54113CC72277E82200664856 /* LaunchScreen.storyboard */,
 				54113CCA2277E82200664856 /* Info.plist */,
 				54113CCB2277E82200664856 /* main.m */,
+				54113CD22277E83900664856 /* ZZImageView.h */,
+				54113CD32277E83900664856 /* ZZImageView.m */,
 			);
 			path = ZZImageViewDemo;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				54113CC12277E81E00664856 /* ViewController.m in Sources */,
 				54113CCC2277E82200664856 /* main.m in Sources */,
+				54113CD42277E83900664856 /* ZZImageView.m in Sources */,
 				54113CBE2277E81E00664856 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
