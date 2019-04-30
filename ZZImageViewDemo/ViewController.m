@@ -27,6 +27,8 @@
     [self demo4];
     NSLog(@"--------------------55555--------------------");
     [self demo5];
+    NSLog(@"--------------------66666--------------------");
+    [self demo6];
 }
 
 - (void)demo1 {
@@ -51,6 +53,11 @@
 
 - (void)demo5 {
     ZZImageView *imageView = [[ZZImageView alloc] init];
+    [self.view addSubview:imageView];
+}
+
+- (void)demo6 {
+    ZZImageView *imageView = [ZZImageView new];
     [self.view addSubview:imageView];
 }
 

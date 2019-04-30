@@ -1,6 +1,6 @@
 # ZZImageViewDemo
 
-+ 只有init会先调initWithFrame，再调init
++ 只有init和new会先调initWithFrame，再调init
 + 其他init初始化方法只会调用各自
 
 
